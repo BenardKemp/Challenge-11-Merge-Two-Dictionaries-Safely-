@@ -29,13 +29,13 @@ Do not modify the original inputs
 
 # 📌 Examples
 merge_dicts({"a": 1}, {"b": 2})
-# {"a": 1, "b": 2}
+-> {"a": 1, "b": 2}
 
 merge_dicts({"a": 1, "b": 1}, {"b": 2})
-# {"a": 1, "b": 2}
+-> {"a": 1, "b": 2}
 
 merge_dicts({}, {"x": 10})
-# {"x": 10}
+-> {"x": 10}
 
 # ❌ Invalid Input Examples
 merge_dicts("a", {"b": 2})      # TypeError
